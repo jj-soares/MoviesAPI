@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react"
 import MoviesCard from "../components/MoviesCard"
+import './MoviesGrid.css'
 
 const moviesURL = import.meta.env.VITE_API
 const apiKey = import.meta.env.VITE_API_KEY
@@ -23,8 +24,9 @@ function Home() {
     getTopRateMovies(topRateUrl)
   }, [])
 
-  return (<div className="container">
-    <h2 className="title">MoviesLib</h2>
+  return (
+  <div className="container">
+    <h2 className="title">Melhores Filmes:</h2>
 
     <div className="movies-container">
 
