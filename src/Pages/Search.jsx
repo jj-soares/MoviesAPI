@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react"
 import { useSearchParams } from "react-router-dom"
+import Loader from "../components/Loadder"
 import MoviesCard from "../components/MoviesCard"
 
 
@@ -15,6 +16,8 @@ function Search() {
   const [searchParams] = useSearchParams()
 
   const [movies, setMovies] = useState([])
+  const [removeLoader, setRemoveLoader] = useState(false)
+
   const query = searchParams.get("q")
 
 
@@ -29,9 +32,13 @@ function Search() {
   }
 
   useEffect(() => {
-    const searchWithQueryUrl = `${searchURL}?${apiKey}&query=${query}`
+   setTimeout (
+    () => {
+      const searchWithQueryUrl = `${searchURL}?${apiKey}&query=${query}`
 
-    getSearchMovies(searchWithQueryUrl)
+      getSearchMovies(searchWithQueryUrl)
+      setRemoveLoader(true)
+    }, 1000)
   }, [query])
 
   return (
@@ -40,12 +47,13 @@ function Search() {
       </h2>
 
       <div className="movies-container">
-
-        {movies.length === 0 && <p>Carregando...</p>}
+     
+      
 
         {movies.length > 0 && movies.map((movie) => <MoviesCard key={movie.id} movie={movie} />)}
       </div>
-
+    
+      {!removeLoader && <Loader/>}
 
 
     </div>
