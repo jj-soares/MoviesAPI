@@ -27,7 +27,7 @@ function Navbar ()  {
         <nav id="navbar">
             <h2>
                 <Link to='/'>
-                     <BiCameraMovie/> Movies Lib 
+                     <BiCameraMovie/> Top Movies 
                 </Link>
             </h2>
             <form onSubmit={handleSubmit}>

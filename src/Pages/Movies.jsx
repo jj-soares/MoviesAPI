@@ -4,7 +4,8 @@ import {
   BsGraphUp,
   BsWallet2,
   BsHourglassSplit,
-  BsFillFileEarmarkTextFill
+  BsFillFileEarmarkTextFill,
+  
 } from 'react-icons/bs'
 
 import MoviesCard from "../components/MoviesCard"
