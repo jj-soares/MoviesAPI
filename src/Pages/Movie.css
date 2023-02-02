@@ -1,4 +1,4 @@
-.movie-page{
+.movie-page {
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -6,7 +6,7 @@
     margin: 2rem auto;
 }
 
-.movie-page svg{
+.movie-page svg {
     font-size: 1.5rem;
     color: #f7d354;
 }
@@ -17,9 +17,8 @@
 
 .movie-page .movie-card img,
 .movie-page .movie-card h2,
-.movie-page .movie-card p
-{
-margin-bottom: 1rem;
+.movie-page .movie-card p {
+    margin-bottom: 1rem;
 }
 
 .movie-page .movie-card h2 {
@@ -58,3 +57,20 @@ margin-bottom: 1rem;
     margin-bottom: 10rem;
 }
 
+
+@media screen and (max-width: 900px) {
+
+    .movie-page .movie-card img {
+        width: 70%;
+    }
+
+    .movie-page .movie-card h2,
+    .movie-page .movie-card p {
+        margin-bottom: 0.2rem;
+    }
+
+    .info {
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+    }
+}
