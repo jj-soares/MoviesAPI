@@ -9,7 +9,7 @@
 
 ## Photos 🎴
    <div align='center' >
-   <img src="./public/readme-assets/Img1.JPG" width='30%' >
+   <img src="./src/assets/movie.gif" width='30%' >
   
    </div>
    
