@@ -66,7 +66,7 @@ $ yarn install or npm install
 $ yarn start or npm start 
 
 # Don't forget to clone the API
-$ git clone https://github.com/jj-soares/API-React-burguer/tree/master
+$ git clone https://github.com/jj-soares/MoviesAPI
 
 ```
 Go to http://127.0.0.1:5173/ to see the result.
