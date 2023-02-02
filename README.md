@@ -9,11 +9,11 @@
 
 ## Photos 🎴
    <div align='center' >
-   <img src="./src/assets/movie.gif" width='30%' >
+   <img src="./src/assets/movie.gif">
   
    </div>
    
-
+   
 <p align="center">   
    <a href="#on">On</a> .
    <a href="#roadmap">Roadmap</a> .
