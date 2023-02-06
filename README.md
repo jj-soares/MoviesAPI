@@ -7,7 +7,7 @@
 </h4>
 
 
-## Photos 🎴
+## Photo 🎴
    <div align='center' >
    <img src="./src/assets/movie.gif" width='30%' >
   
@@ -41,7 +41,7 @@
    
    <h3 align="center"> Technologies used in the project 🙃 </h3>
    
-   <img src='./public/readme-assets/computer1.gif' alt='gif-de-computador' align='right' width='20%'/>
+   <img src='./src/assets/computer1.gif' alt='gif-de-computador' align='right' width='20%'/>
 
 - [React](https://pt-br.reactjs.org/)  
 - [JavaScript](https://www.javascript.com/)
