@@ -9,11 +9,11 @@
 
 ## Photo 🎴
    <div align='center' >
-   <img src="./src/assets/movie.gif" width='30%' >
+   <img src="./src/assets/movie.gif">
   
    </div>
    
-
+   
 <p align="center">   
    <a href="#on">On</a> .
    <a href="#roadmap">Roadmap</a> .
@@ -66,7 +66,7 @@ $ yarn install or npm install
 $ yarn start or npm start 
 
 # Don't forget to clone the API
-$ git clone https://github.com/jj-soares/API-React-burguer/tree/master
+$ git clone https://github.com/jj-soares/MoviesAPI
 
 ```
 Go to http://127.0.0.1:5173/ to see the result.
